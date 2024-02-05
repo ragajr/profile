@@ -1,0 +1,60 @@
+body{
+  font-family: Overpass;
+  background-color: colorHunt;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+h1, h2, h3
+{
+  font-family: times new roman;
+  color: #0C0A3E;
+}
+
+ li
+{
+    display: inline;
+    text-align: center;
+    padding: 0;
+}
+
+ul
+{
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: #8dc3ff;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+a:hover{
+    color: black;
+}
+
+#profile-pic
+{
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+}
+
+.card
+{
+  background-color: white;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
